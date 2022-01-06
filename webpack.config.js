@@ -30,4 +30,9 @@ module.exports = {
             { test: /\.(woff(2)?|eot|ttf|otf|svg|)$/, type: 'asset/inline' },
         ],
     },
+    resolve: {
+        alias: {
+            '@mui/styled-engine': '@mui/styled-engine-sc',
+        },
+    },
 };

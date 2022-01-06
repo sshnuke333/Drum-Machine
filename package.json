@@ -5,6 +5,8 @@
         "@babel/preset-env": "^7.16.5",
         "@babel/preset-react": "^7.16.5",
         "@babel/runtime": "^7.16.5",
+        "@mui/material": "^5.2.7",
+        "@mui/styled-engine-sc": "^5.1.0",
         "babel-loader": "^8.2.3",
         "babel-plugin-styled-components": "^2.0.2",
         "clean-webpack-plugin": "^4.0.0",
