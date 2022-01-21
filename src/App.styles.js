@@ -17,4 +17,9 @@ export const StyledBox = styled(Box)`
     grid-template-rows: 0.5fr 2fr 2fr 2fr 0.5fr;
     align-items: center;
     justify-items: center;
+
+    @media (max-width: 576px) {
+        width: 20rem;
+        height: 35rem;
+    } ;
 `;

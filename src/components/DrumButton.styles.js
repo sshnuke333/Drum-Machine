@@ -16,4 +16,11 @@ export const Button = styled.button`
         border: 1px solid white;
         cursor: pointer;
     }
+    
+    @media(max-width: 576px){
+        width: 4.5rem;
+        height: 4.5rem;
+        font-size: 1.25rem;
+        border-radius: 0.75rem;
+    }
 `;

@@ -11,4 +11,8 @@ export const StyledDiv = styled.div`
     padding: 0.75rem;
     font-size: 1.5rem;
     text-align: center;
+
+    @media (max-width: 576px) {
+        width: 10rem;
+    }
 `;

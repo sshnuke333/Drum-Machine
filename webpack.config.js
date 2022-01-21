@@ -10,7 +10,7 @@ module.exports = {
         path: path.resolve(__dirname, './dist'),
         filename: 'index_bundle.js',
     },
-    mode: 'development',
+    mode: 'production',
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Drum Machine',
